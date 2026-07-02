@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+[[edge_functions]]
+  path = "/api/save-dataset"
+  function = "save-dataset"
+
+[[edge_functions]]
+  path = "/api/get-dataset"
+  function = "get-dataset"
