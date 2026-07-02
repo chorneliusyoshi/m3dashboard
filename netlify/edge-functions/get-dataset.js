@@ -5,7 +5,7 @@
 // Response:
 //  - Jika belum ada data tersimpan -> JSON { exists: false }
 //  - Jika ada data tersimpan       -> body CSV mentah (content-type: text/csv)
-import { getStore } from "@netlify/blobs";
+import { getStore } from "npm:@netlify/blobs";
 
 export default async (request) => {
   try {

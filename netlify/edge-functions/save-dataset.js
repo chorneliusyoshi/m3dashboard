@@ -2,7 +2,7 @@
 // supaya user berikutnya tidak perlu upload manual lagi.
 //
 // Dipanggil dari frontend via: fetch('/api/save-dataset', { method: 'POST', body: file })
-import { getStore } from "@netlify/blobs";
+import { getStore } from "npm:@netlify/blobs";
 
 export default async (request) => {
   if (request.method !== "POST") {
